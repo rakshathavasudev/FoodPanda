@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FoodPanda|Menu</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width initial-scale=1" >
+        <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+ <style>
+ h1{
+ 	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 900;
+
+ }
+  body {
+        /* The image used */
+    background-image: url("static/bg1.jpg");
+    /* Full height */
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat;
+   /*opacity: 0.5;
+  filter: alpha(opacity=50);*/
+}
+ #a {
+ 	float: left;
+ 	padding-bottom: 300px;
+ 	padding-top: 50px;
+
+ }
+ #b{
+ 	float: right;
+ 	padding-bottom: 50px;
+ 	padding-top: 300px;
+ }
+ .c{
+ 	
+ 	float: center;
+ }
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.7;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #f8f8f8;
+  color: white;
+  font-size: 25px;
+  padding: 16px 32px;
+}
+#full{
+	min-height: 50px;
+}
+
+</style>
+<body>
+
+	  <h1 align="center">Check out the Menu</h1>
+
+ 	  <div class="container" id="a">
+ 	  	<img src="static/Oliebollen.jpg" alt="Oliebol" class="image"  >
+ 	  	<div class="middle">
+ 	  	<div class="text"><li><a href="http://www.geniuskitchen.com/recipe/oliebollen-dutch-doughnuts-17162" style="text-decoration: none;text-decoration-color: rgba(0,0,0,0.5);">Oliebol</li></a></div>
+ 	  	</div>
+ 	  </div>
+ 	  <br>
+ 	  <div class="container" id="b">
+ 	  	<img src="static/Amos.jpg" alt="Amos" class="image">
+ 	  	<div class="middle">
+ 	  	<div class="text"><li ><a href="https://www.allrecipes.com/recipe/10944/famous-amos-chocolate-chip-cookies/" style="text-decoration: none;">Amos</li></a></div>
+ 	  	</div>
+ 	  </div>
+ 	  <div class="container" id="a">
+ 	  	<img src="static/seafood-paella.jpg" alt="Paella" class="image">
+ 	  	<div class="middle">
+ 	  	<div class="text"><li><a href="https://www.bbcgoodfood.com/recipes/seafood-paella" style="text-decoration: none;">Sea food Paella</li></a></div>
+ 	  	</div>
+ 	  </div>
+ 	  <div class="container" id="b">
+ 	  	<img src="static/tacos.jpg" alt="Tacos" class="image">
+ 	  	<div class="middle">
+ 	  <div class="text"><li><a href="https://www.tarladalal.com/Mexican-Tacos-Vegetarian-Tacos-Recipe-2442r" style="text-decoration: none;">Mexican Tacos</li></a></div>	
+ 	  	</div>
+ 	  </div>
+ 	  <div class="container" id="a">
+ 	  	<img src="static/marzipan.jpg" alt="Marzipan" class="image">
+ 	  	<div class="middle">
+ 	  	<div class="text"><li><a href="https://veenaazmanov.com/homemade-marzipan-recipe/" style="text-decoration: none;">Marzipan</li></a></div>
+ 	  	</div>
+ 	  </div>
+ 	  
+  <div class="c" style="align-self: center;padding-top:2150px;" ><a href="one.html"><button class="btn btn-danger btn-lg" style="align-self: center;">Back to Home </button></a></div>
+
+
+</body>
+</html>
